@@ -6,14 +6,12 @@
 #include <string>
 #include "Day.h"
 #include "Day1/Day1.h"
+#include "Day2/Day2.h"
 
-enum AdventDays
-{
-	AdventDay1,
-	NumberOfAdventDays
-};
+const int NumberOfAdventDays = 2;
 
-const int InitialDebugValue = 1;
+// Used to auto-launch a specific day
+const int InitialDebugValue = 2;
 
 int main(int argc, char *argv[])
 {
@@ -40,6 +38,12 @@ int main(int argc, char *argv[])
 	case 1:
 		{
 			Day1 newDay = Day1();
+			day = &newDay;
+			break;
+		}
+	case 2:
+		{
+			Day2 newDay = Day2();
 			day = &newDay;
 			break;
 		}
