@@ -2,6 +2,7 @@
 import sys
 from timeit import timeit
 from day1.day1 import Day1
+from day2.day2 import Day2
 
 days_completed=2
 
@@ -11,7 +12,7 @@ def get_day(day_num):
     elif day_num == 1:
         return Day1().run
     elif day_num == 2:
-        return Day1().run
+        return Day2().run
     else:
         raise BaseException()
 
