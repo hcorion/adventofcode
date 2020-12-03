@@ -27,6 +27,14 @@
             "args": ["2"],
             "program": "${workspaceFolder}/launcher.py",
             "console": "integratedTerminal"
+        },
+        {
+            "name": "Run Day 3",
+            "type": "python",
+            "request": "launch",
+            "args": ["3"],
+            "program": "${workspaceFolder}/launcher.py",
+            "console": "integratedTerminal"
         }
     ]
 }

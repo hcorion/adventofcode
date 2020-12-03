@@ -3,8 +3,9 @@ import sys
 from timeit import timeit
 from day1.day1 import Day1
 from day2.day2 import Day2
+from day3.day3 import Day3
 
-days_completed=2
+days_completed=3
 
 def get_day(day_num):
     if day_num == -1:
@@ -13,6 +14,8 @@ def get_day(day_num):
         return Day1().run
     elif day_num == 2:
         return Day2().run
+    elif day_num == 3:
+        return Day3().run
     else:
         raise BaseException()
 
