@@ -4,8 +4,10 @@ from timeit import timeit
 from day1.day1 import Day1
 from day2.day2 import Day2
 from day3.day3 import Day3
+from day4.day4 import Day4
+from day5.day5 import Day5
 
-days_completed=3
+days_completed=5
 
 def get_day(day_num):
     if day_num == -1:
@@ -16,6 +18,10 @@ def get_day(day_num):
         return Day2().run
     elif day_num == 3:
         return Day3().run
+    elif day_num == 4:
+        return Day4().run
+    elif day_num == 5:
+        return Day5().run
     else:
         raise BaseException()
 

@@ -35,6 +35,102 @@
             "args": ["3"],
             "program": "${workspaceFolder}/launcher.py",
             "console": "integratedTerminal"
-        }
+        },
+        {
+            "name": "Run Day 4",
+            "type": "python",
+            "request": "launch",
+            "args": ["4"],
+            "program": "${workspaceFolder}/launcher.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Run Day 5",
+            "type": "python",
+            "request": "launch",
+            "args": ["5"],
+            "program": "${workspaceFolder}/launcher.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Run Day 6",
+            "type": "python",
+            "request": "launch",
+            "args": ["6"],
+            "program": "${workspaceFolder}/launcher.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Run Day 7",
+            "type": "python",
+            "request": "launch",
+            "args": ["7"],
+            "program": "${workspaceFolder}/launcher.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Run Day 8",
+            "type": "python",
+            "request": "launch",
+            "args": ["8"],
+            "program": "${workspaceFolder}/launcher.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Run Day 9",
+            "type": "python",
+            "request": "launch",
+            "args": ["9"],
+            "program": "${workspaceFolder}/launcher.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Run Day 10",
+            "type": "python",
+            "request": "launch",
+            "args": ["10"],
+            "program": "${workspaceFolder}/launcher.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Run Day 11",
+            "type": "python",
+            "request": "launch",
+            "args": ["11"],
+            "program": "${workspaceFolder}/launcher.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Run Day 12",
+            "type": "python",
+            "request": "launch",
+            "args": ["12"],
+            "program": "${workspaceFolder}/launcher.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Run Day 13",
+            "type": "python",
+            "request": "launch",
+            "args": ["13"],
+            "program": "${workspaceFolder}/launcher.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Run Day 14",
+            "type": "python",
+            "request": "launch",
+            "args": ["14"],
+            "program": "${workspaceFolder}/launcher.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Run Day 15",
+            "type": "python",
+            "request": "launch",
+            "args": ["15"],
+            "program": "${workspaceFolder}/launcher.py",
+            "console": "integratedTerminal"
+        },
     ]
 }
