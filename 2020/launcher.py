@@ -6,8 +6,11 @@ from day2.day2 import Day2
 from day3.day3 import Day3
 from day4.day4 import Day4
 from day5.day5 import Day5
+from day6.day6 import Day6
+from day7.day7 import Day7
+from day8.day8 import Day8
 
-days_completed=5
+days_completed=8
 
 def get_day(day_num):
     if day_num == -1:
@@ -22,6 +25,12 @@ def get_day(day_num):
         return Day4().run
     elif day_num == 5:
         return Day5().run
+    elif day_num == 6:
+        return Day6().run
+    elif day_num == 7:
+        return Day7().run
+    elif day_num == 8:
+        return Day8().run
     else:
         raise BaseException()
 
